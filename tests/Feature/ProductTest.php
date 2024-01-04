@@ -18,7 +18,7 @@ class ProductTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        $user = $this->authUser();
+        // $user = $this->authUser();
         $this->product = Product::factory()->create();
     }
 
